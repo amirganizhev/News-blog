@@ -1,0 +1,51 @@
+/*Подвал сайта*/
+.footer {
+	text-align: center;
+	height: 100px;
+	margin-top: 25px;
+}
+
+.footer hr {
+	max-width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.contacts {
+	margin-top: 15px;
+}
+
+.footer a {
+	text-decoration: none;
+	margin-right: 15px;
+}
+
+/*Форма регистрации*/
+.modal-registration {}
+
+.registration-form {
+	width: 500px;
+	height: 550px;
+	background-color: white;
+	left: 30%;
+	position: fixed;
+	top: 150px;
+	display: none;
+}
+
+.registration-image {
+	cursor: pointer;
+	position: relative;
+	bottom: 490px;
+	left: 100%;
+}
+
+.registration-name {}
+
+.registration-surname {}
+
+.registration-mail {}
+
+.registration-password {}
+
+.registration-button {}

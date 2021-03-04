@@ -1,14 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Новостной блог</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  		<a class="navbar-brand" href="#"><h1>News blog times</h1></a>
+    	<button class="btn btn-secondary my-2 modal-registration">Зарегистрироватся</button>
+	</nav>
+
+	<article>
+		<section class="jumbotron m-5">
+			<h2 class="display-5">В Тверской области задержали браконьеров, задушивших беременную лосиху</h2>
+			<hr class="my-4">
+			<p>Москва. 2 марта. INTERFAX.RU - Три человека задержаны в рамках расследования уголовного дела о незаконной охоте в Вологодской области, где жертвой жестокой расправы стала беременная лосиха. "Трое подозреваемых в совершении преступления задержаны, ими оказались жители Тверской и Ярославской областей. С ними проводятся следственные действия. Решается вопрос об избрании меры пресечения", - сообщила во вторник пресс-служба Следственного управления СКР России по Тверской области. Инцидент произошел в последние дни февраля вблизи деревни Раменье Череповецкого района Вологодской области. Браконьеры на снегоходах долго гнали лосиху по глубокому снегу. После того, как она выбилась из сил, преследователи навалились на животное, опрокинули и задушили. Жестокую расправу они снимали на камеру мобильного телефона. В охоте участвовала женщина. Уголовное дело возбуждено по части 2 статьи 258 УК РФ (незаконная охота). Ход расследования взял на контроль губернатор Тверской области Игорь Руденя. По данным местных СМИ, убитая лосиха была беременна.</p>
+		</section>
+		<section class="jumbotron m-5">
+			<h2 class="display-5">ОПЕК+ согласовала рост добычи нефти в России и Казахстане в апреле</h2>
+			<hr class="my-4">
+			<p>Страны ОПЕК+ согласовали рост добычи нефти в России в апреле на 130 тыс. баррелей в сутки, в Казахстане — на 20 тыс. баррелей. Отмечается, что по итогам прошедшего в формате видеоконференции министерского заседания страны-участницы приняли решение о продлении текущего уровня сокращения добычи нефти на апрель 2021 года. «Для Казахстана и России были согласованы отдельные условия, предусматривающие дальнейшее увеличение добычи в данный период на 20 тыс. и 130 тыс. баррелей в сутки соответственно», — говорится в сообщении Минэнерго Казахстана. Остальные страны альянса сохранят добычу на прежнем уровне.</p>
+		</section>
+	</article>
+
+	<!--Форма регистрации-->
+	<article class="jumbotron registration-form">
+		<section class="form-group">
+  			<label class="col-form-label" for="name">Имя:</label>
+  			<input type="text" class="form-control registration-name" placeholder="Введите имя" id="name">
+		</section>
+		<section class="form-group">
+  			<label class="col-form-label" for="surname">Фамилия:</label>
+  			<input type="text" class="form-control registration-surname" placeholder="Введите фамилию" id="surname">
+		</section>		
+		<section class="form-group">
+  			<label class="col-form-label" for="mail">@mail:</label>
+  			<input type="text" class="form-control registration-mail" placeholder="Введите @mail" id="mail">
+		</section>
+		<section class="form-group">
+  			<label class="col-form-label" for="password">Пароль:</label>
+  			<input type="text" class="form-control registration-password" placeholder="Введите пароль" id="password">
+		</section>	
+		<img src="image/close.svg" class="registration-image" width="40px" height="40px">
+		<button type="button" class="btn btn-outline-primary m-3 registration-button">Регистрация</button>	
+	</article>
+
+	<!--Форма вопросов и ответов-->
+	<article></article>
+
+	<footer class="footer">
+		<h1>Наши контакты ниже:</h1>
+		<hr>
+		<div class="contacts">
+			<a href="#"><img src="image/social-network/github.svg" alt="гитхаб" width="20px" height="20px"></a>			
+			<a href="#"><img src="image/social-network/instagram.svg" alt="инста" width="20px" height="20px"></a>			
+			<a href="#"><img src="image/social-network/mail.svg" alt="маил" width="20px" height="20px"></a>			
+			<a href="#"><img src="image/social-network/vk.svg" alt="вк" width="20px" height="20px"></a>
+			<a href="#"><img src="image/social-network/whatsapp.svg" alt="ватсапп" width="20px" height="20px"></a>
+		</div>
+		<br>
+	</footer>
+
+	<script type="text/javascript" src="js/modal.js"></script>
 	<script type="text/javascript" src="js/ajax.js"></script>
+	<script type="text/javascript" src="js/validation.js"></script>
 	
 </body>
 </html>
